@@ -254,7 +254,7 @@ function cekKarakter($data){
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto font-weight-bold font-italic">
                 <li class="nav-item ml-2">
-                    <a href="/" class="nav-link active router-link-active" target="_self">
+                    <a href="#" class="nav-link active router-link-active" target="_self">
                         <i class="fa fa-home fa-lg"></i> Beranda 
                     </a>
                 </li>
