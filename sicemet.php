@@ -245,8 +245,8 @@ function cekKarakter($data){
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#" style="overflow: hidden;">
             <img src="https://raw.githubusercontent.com/naufalist/rpl/master/assets/logo.png" alt="IPB" style="height: 30px;">
-            <strong class="ml-2 d-none d-md-inline-block">INF304</strong>
-            <span class="ml-2 font-italic" style="opacity: 0.5;">Rekayasa Perangkat Lunak</span>
+            <strong class="ml-2 d-none d-md-inline-block">Rekayasa Perangkat Lunak</strong>
+            <span class="ml-2 font-italic" style="opacity: 0.5;">INF304</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
