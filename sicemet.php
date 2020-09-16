@@ -1,3 +1,62 @@
+<!--
+
+
+
+
+
+GGGGG OOOOO L     EEEEE K    K IIIII
+G     O   O L     E     K  KK    I
+GGGGG O   O L     EEEEE KKK      I
+G   G O   O L     E     K  KK    I
+GGGGG OOOOO LLLLL EEEEE K    K IIIII
+
+OOOOO PPPPP OOOOO
+O   O P   P O   O
+O   O PPPPP O   O
+O   O P     O   O
+OOOOO P     OOOOO
+
+CCCCC OOOOO K    K      ????? ?????
+C     O   O K  KK           ?     ?
+C     O   O KKK           ??    ??
+C     O   O K  KK            
+CCCCC OOOOO K    K        ?      ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
 <?php
 
 function cekKarakter($data){
@@ -111,26 +170,26 @@ function cekKarakter($data){
         }
 
         .navbar{
-            background-color:#1c7ad8;
+            background-color: #1c7ad8;
         }
 
         #page-header{
-            background-color:#2196f3;
-            background-image:url(https://raw.githubusercontent.com/naufalist/rpl/master/assets/bg-publik.jpg);
-            background-position:bottom;
-            background-repeat:no-repeat;
-            background-size:100% auto
+            background-color: #2196f3;
+            background-image: url(https://raw.githubusercontent.com/naufalist/rpl/master/assets/bg-publik.jpg);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: 100% auto
         }
 
         #page-header .jumbotron{
-            padding:2rem 1rem!important;
-            text-align:center;
-            color:#fff
+            padding: 2rem 1rem!important;
+            text-align: center;
+            color: #fff
         }
 
         #page-header .jumbotron h1{
-            font-size:2.5rem!important;
-            font-weight:500!important
+            font-size: 2.5rem!important;
+            font-weight: 500!important
         }
 
         .bg-primary {
@@ -151,6 +210,11 @@ function cekKarakter($data){
 
         .accortoggle > a[aria-expanded="true"]:after {
             content: "\f077"; /* fa-chevron-up */
+        }
+
+        #footer {
+            background-color: #f5f5f5;
+            position: fixed;
         }
     </style>
 
@@ -260,7 +324,7 @@ function cekKarakter($data){
                 </li>
                 <li class="nav-item ml-2">
                     <a href="/" class="nav-link" target="_self" data-toggle="modal" data-target="#anggotaKelompok">
-                        <i class="fa fa-list-ul fa-lg"></i> Informasi Kelompok
+                        <i class="fa fa-users fa-md"></i> Informasi Kelompok
                     </a>
                 </li>
             </ul>
@@ -269,21 +333,19 @@ function cekKarakter($data){
 
     <!-- Page Header -->
     <div id="page-header">
-        <div>
-            <div class="jumbotron jumbotron-fluid" style="background-color: transparent;">
-                <div class="container-fluid">
-                    <h1 class="display-3 m-0"> SiCeMet </h1>
-                    <h2 class="lead font-weight-bold font-italic mt-2">
-                        <div style="">
-                        SiCeMet  merupakan aplikasi simulasi untuk cek metodologi agar sesuai dengan karakteristik proyek dalam pengembangan sistem. Selamat Mencoba 😊 
-                        </div>
-                    </h2>
-                    <!-- <p class="lead">
-                        <div>
-                        SiCeMet  merupakan aplikasi simulasi untuk cek metodologi agar sesuai dengan karakteristik proyek dalam pengembangan sistem. Selamat Mencoba 😊
-                        </div>
-                    </p> -->
-                </div>
+        <div class="jumbotron jumbotron-fluid" style="background-color: transparent;">
+            <div class="container-fluid">
+                <h1 class="display-3 m-0"> SiCeMet </h1>
+                <h2 class="lead font-weight-bold font-italic mt-2">
+                    <div style="">
+                    SiCeMet  merupakan aplikasi simulasi untuk cek metodologi agar sesuai dengan karakteristik proyek dalam pengembangan sistem. Selamat Mencoba ! 
+                    </div>
+                </h2>
+                <!-- <p class="lead">
+                    <div>
+                    SiCeMet  merupakan aplikasi simulasi untuk cek metodologi agar sesuai dengan karakteristik proyek dalam pengembangan sistem. Selamat Mencoba !
+                    </div>
+                </p> -->
             </div>
         </div>
     </div>
@@ -413,7 +475,7 @@ function cekKarakter($data){
                                                 <th scope="col">Aksi</th>
                                             </tr>
                                         </thead>
-                                    <tbody>';
+                                            <tbody>';
 
                                     $i = 1;
                                     foreach ($response as $metode => $poin) {
@@ -429,12 +491,12 @@ function cekKarakter($data){
                                     }
 
                                     echo '
-                                        </tbody>
-                                    </table';
+                                            </tbody>
+                                        </table';
                                     // print_r($response);
 
                                 } else {
-                                    echo "Mau liat apa? formnya aja belum diisi 🤭";
+                                    echo "Mau liat apa? formnya aja belum diisi";
                                 }
 
                                 ?>
@@ -443,11 +505,11 @@ function cekKarakter($data){
                     </div>
                     
                 </div>
-
             </div>
         </div>
     </div>
 
+    <!-- Modal Anggota Kelompok -->
     <div class="modal fade" id="anggotaKelompok" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -459,58 +521,64 @@ function cekKarakter($data){
                 </div>
                 <div class="modal-body">
                     <ul class="list-group list-group-flush">
+
+                        <!-- Profil Dosen -->
                         <em class="font-weight-bold mb-2">Dosen Pengajar</em>
                         <li class="list-group-item align-items-center py-1 mb-2">
-
-                        <div class="row mb-2">
-                            <div class="col-3">
-                                <img class="rounded-circle" width="70" height="auto" src="https://i1.rgstatic.net/ii/profile.image/803605019889664-1568605775263_Q512/Sofiyanti_Indriasari.jpg" alt="">
-                            </div>
-                            <div class="col text-center">
-                                <div class="mt-2">
-                                    Sofiyanti Indriasari S.Kom., M.Kom.
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <img class="rounded-circle" width="70" height="auto" src="https://i1.rgstatic.net/ii/profile.image/803605019889664-1568605775263_Q512/Sofiyanti_Indriasari.jpg" alt="">
+                                </div>
+                                <div class="col text-center mt-2">
+                                    Sofiyanti Indriasari S.Kom., M.Kom.<br>
                                     <span class="badge badge-success badge-pill">201807198410052001</span>
                                 </div>
                             </div>
-                        </div>
-
                         </li>
+
+                        <!-- Profil Mahasiswa -->
                         <em class="font-weight-bold mb-2">Mahasiswa</em>
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-1">
-                        <img class="rounded-circle" width="40" height="auto" src="https://instagram.fbkk22-3.fna.fbcdn.net/v/t51.2885-15/e35/51800016_131315894589066_7074515133296752609_n.jpg?_nc_ht=instagram.fcgk18-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=7MN7QBN_9jYAX_7nKl9&oh=95871422dcc2507d59730b95cab4454e&oe=5F88A4B3&dl=1%22" alt="">
-                        Nurmala Ameliana
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://instagram.fbkk22-3.fna.fbcdn.net/v/t51.2885-15/e35/51800016_131315894589066_7074515133296752609_n.jpg?_nc_ht=instagram.fcgk18-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=7MN7QBN_9jYAX_7nKl9&oh=95871422dcc2507d59730b95cab4454e&oe=5F88A4B3&dl=1%22" alt="mala">
+                            Nurmala Ameliana
                             <span class="badge badge-primary badge-pill">J3D118040</span>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-1">
-                        <img class="rounded-circle" width="40" height="auto" src="https://media-exp1.licdn.com/dms/image/C5103AQHfPBtf7y3dcA/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=J6hZVSlz749sEwX331cznqOrRt4F3--zfpk_YzK9EY0" alt="">
-                        Muhammad Naufal Wafi
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://media-exp1.licdn.com/dms/image/C5103AQHfPBtf7y3dcA/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=J6hZVSlz749sEwX331cznqOrRt4F3--zfpk_YzK9EY0" alt="naufal">
+                            Muhammad Naufal Wafi
                             <span class="badge badge-primary badge-pill">J3D118042</span>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-1">
-                        <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/55818892_288677668691997_2243833276416393216_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=Lcl5sU22TikAX92SkaV&oh=259c74bf20b2c9358cb04c472b1477e6&oe=5F869145" alt="">
-                        Sagita Hapsari
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/55818892_288677668691997_2243833276416393216_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=Lcl5sU22TikAX92SkaV&oh=259c74bf20b2c9358cb04c472b1477e6&oe=5F869145" alt="gita">
+                            Sagita Hapsari
                             <span class="badge badge-primary badge-pill">J3D118044</span>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-1">
-                        <img class="rounded-circle" width="40" height="auto" src="https://instagram.fcgk18-2.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/116362839_948588925616754_7107950940090825884_n.jpg?_nc_ht=instagram.fcgk18-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=mhA26cpnXcIAX_cs2z-&oh=02240acfe806f739fe964231bda389eb&oe=5F885E9D" alt="">
-                        Nazla Bella Fadilah
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://instagram.fcgk18-2.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/116362839_948588925616754_7107950940090825884_n.jpg?_nc_ht=instagram.fcgk18-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=mhA26cpnXcIAX_cs2z-&oh=02240acfe806f739fe964231bda389eb&oe=5F885E9D" alt="nazla">
+                            Nazla Bella Fadilah
                             <span class="badge badge-primary badge-pill">J3D118046</span>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-1">
-                        <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/80818298_108582537259608_1390559558308462592_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=L0BudzwhfFkAX9sQawr&oh=8003399e725a100d1af35ec3a2e8e05a&oe=5F887438" alt="">
-                        Arvy Adhitya Sutisna
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/80818298_108582537259608_1390559558308462592_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=L0BudzwhfFkAX9sQawr&oh=8003399e725a100d1af35ec3a2e8e05a&oe=5F887438" alt="arvy">
+                            Arvy Adhitya Sutisna
                             <span class="badge badge-primary badge-pill">J3D118047</span>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-1">
-                        <img class="rounded-circle" width="40" height="auto" src="https://media-exp1.licdn.com/dms/image/C5603AQHs4OIV4HeDbQ/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=3zAqm4MswUmP0NjxfLsA6E4okVf4K5y_xX8leLp_gpc" alt="">
-                        Sendy Cahyono
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://media-exp1.licdn.com/dms/image/C5603AQHs4OIV4HeDbQ/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=3zAqm4MswUmP0NjxfLsA6E4okVf4K5y_xX8leLp_gpc" alt="sendy">
+                            Sendy Cahyono
                             <span class="badge badge-primary badge-pill">J3D118048</span>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-1">
-                        <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/116992864_111603097198660_5171442987820783900_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=dpaLWilBUe4AX8B2dX_&oh=e7d33048797bef6a469b1f1bfa1752ef&oe=5F88472C" alt="">
-                        Annisa Nur Fitriyani
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/116992864_111603097198660_5171442987820783900_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=dpaLWilBUe4AX8B2dX_&oh=e7d33048797bef6a469b1f1bfa1752ef&oe=5F88472C" alt="sasa">
+                            Annisa Nur Fitriyani
                             <span class="badge badge-primary badge-pill">J3D118053</span>
                         </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
+                            <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/105942210_861184417709162_4931922168787175742_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=ePDBtmerv0MAX8DsrTf&oh=7bdbc484c43d4a3b4e22cf69a43508a5&oe=5F8C55F2" alt="arman">
+                            Zuharman
+                            <span class="badge badge-primary badge-pill">J3D118066</span>
+                        </li>
+
                     </ul>
                 </div>
                 <div class="modal-footer">
@@ -520,6 +588,7 @@ function cekKarakter($data){
         </div>
     </div>
     
+    <!-- Modal Metodologi -->
     <div class="modal fade" id="metodologi" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -568,12 +637,13 @@ function cekKarakter($data){
         </div>
     </div>
 
-    <footer class="mt-4 fixed-bottom" style="background-color: #f5f5f5; position: fixed;">
+    <!-- Page Footer -->
+    <footer id="footer" class="mt-4 fixed-bottom">
         <div class="container-fluid py-3 small text-black-50" style="border-top: 1px solid rgb(221, 221, 221);">
             <div class="row">
                 <div class="col-6"> Made with <span style="color: #e25555;">&#9829;</span><strong> TEK553AP1 </strong>
                 </div>
-                <div class="col-6 text-right"> Version <strong> 20200911.5 </strong>
+                <div class="col-6 text-right"> Version <strong> 20200915.1 </strong>
                 </div>
             </div>
         </div>
