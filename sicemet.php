@@ -364,7 +364,7 @@ function cekKarakter($data){
                                         <select name="kebutuhan_awal" class="form-control" required>
                                             <option value="" selected disabled>-- Kebutuhan Awal --</option>
                                             <option value="dapat dijelaskan">Dapat dijelaskan</option>
-                                            <option value="belum jelas">Belum jelas</option>
+                                            <option value="tidak dapat dijelaskan">Tidak dapat dijelaskan</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
@@ -381,9 +381,10 @@ function cekKarakter($data){
                                         <select name="waktu_delivery" class="form-control" required>
                                             <option value="" selected disabled>-- Waktu Delivery --</option>
                                             <option value="< 1 bulan">< 1 bulan</option>
+                                            <option value="1 bulan">1 bulan</option>
                                             <option value="1 - 3 bulan">1 - 3 bulan</option>
-                                            <option value="4 - 6 bulan">4 - 6 bulan</option>
-                                            <option value="6 - 12 bulan">6 - 12 bulan</option>
+                                            <!-- <option value="4 - 6 bulan">4 - 6 bulan</option>
+                                            <option value="6 - 12 bulan">6 - 12 bulan</option> -->
                                         </select>
                                     </div>
                                     <div class="form-group">
