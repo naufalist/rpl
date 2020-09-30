@@ -567,6 +567,14 @@ function cekKarakter($data){
                                     <li>Totam deserunt quibusdam</li>
                                 </ul>
                             </div>
+                            <em class="font-weight-bold mb-2">Sumber</em>
+                            <div class="modal-ket4">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>consectetur, adipisicing elit</li>
+                                    <li>Totam deserunt quibusdam</li>
+                                </ul>
+                            </div>
                         </ul>
                     </div>
                     <div class="modal-footer">
