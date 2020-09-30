@@ -36,9 +36,15 @@ function cekKarakter($data){
             "kebutuhan_awal" => "tidak dapat dijelaskan",
             "kompleksitas" => "kompleks",
             "waktu_delivery" => "1 - 3 bulan",
-            "jumlah_tim" => "> 12 orang",
+            "jumlah_tim" => "< 12 orang",
             "keterampilan_tim" => "berpengalaman",
             "klien_terlibat_langsung" => "terlibat"
+            // "kebutuhan_awal" => "tidak dapat dijelaskan",
+            // "kompleksitas" => "kompleks",
+            // "waktu_delivery" => "1 - 3 bulan",
+            // "jumlah_tim" => "> 12 orang",
+            // "keterampilan_tim" => "berpengalaman",
+            // "klien_terlibat_langsung" => "terlibat"
         ],
         "prototyping" => [
             "kebutuhan_awal" => "tidak dapat dijelaskan",
@@ -58,7 +64,7 @@ function cekKarakter($data){
             "kebutuhan_awal" => "dapat dijelaskan",
             "kompleksitas" => "kompleks",
             "waktu_delivery" => "1 bulan",
-            "jumlah_tim" => "< 12 orang",
+            "jumlah_tim" => "> 12 orang",
             "keterampilan_tim" => "berpengalaman",
             "klien_terlibat_langsung" => "terlibat"
 
