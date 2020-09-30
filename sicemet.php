@@ -43,20 +43,35 @@ function cekKarakter($data){
             "klien_terlibat_langsung" => "terlibat"
         ],
         "scrum" => [
-            "kebutuhan_awal" => "tidak dapat dijelaskan",
+            "kebutuhan_awal" => "dapat dijelaskan",
             "kompleksitas" => "kompleks",
             "waktu_delivery" => "1 bulan",
             "jumlah_tim" => "< 12 orang",
             "keterampilan_tim" => "berpengalaman",
             "klien_terlibat_langsung" => "terlibat"
+
+            // "kebutuhan_awal" => "tidak dapat dijelaskan",
+            // "kompleksitas" => "kompleks",
+            // "waktu_delivery" => "1 bulan",
+            // "jumlah_tim" => "< 12 orang",
+            // "keterampilan_tim" => "berpengalaman",
+            // "klien_terlibat_langsung" => "terlibat"
+
         ],
         "extreme programming" => [
             "kebutuhan_awal" => "tidak dapat dijelaskan",
-            "kompleksitas" => "sederhana",
-            "waktu_delivery" => "1 - 3 bulan",
+            "kompleksitas" => "kompleks",
+            "waktu_delivery" => "< 1 bulan",
             "jumlah_tim" => "< 12 orang",
-            "keterampilan_tim" => "campuran",
+            "keterampilan_tim" => "berpengalaman",
             "klien_terlibat_langsung" => "terlibat"
+
+            // "kebutuhan_awal" => "tidak dapat dijelaskan",
+            // "kompleksitas" => "sederhana",
+            // "waktu_delivery" => "1 - 3 bulan",
+            // "jumlah_tim" => "< 12 orang",
+            // "keterampilan_tim" => "campuran",
+            // "klien_terlibat_langsung" => "terlibat"
         ]
     ];
 
