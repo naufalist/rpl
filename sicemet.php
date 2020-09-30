@@ -556,7 +556,7 @@ function cekKarakter($data){
                         <ul class="list-group list-group-flush">
                             <em class="font-weight-bold mb-2">Alur Metodologi</em>
                             <div class="text-center">
-                                <img width="300" height="auto" src="" class="rounded modal-img" alt="modal-img">
+                                <img src="" width="500" class="rounded modal-img img-fluid" alt="modal-img">
                             </div>
                             <em class="font-weight-bold mb-2">Penjelasan</em>
                             <div class="modal-ket">
