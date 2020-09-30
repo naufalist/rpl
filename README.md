@@ -4,15 +4,15 @@ Dokumentasi Tugas Mata Kuliah RPL
 ## Dosen Pengajar
 
 - `201807198410052001` - **Sofiyanti Indriasari S.Kom., M.Kom.**
-- `3673010407870002` - **Aditya Wicaksono SKomp, MKom**
+- `3673010407870002` - **Aditya Wicaksono S.Kom., M.Kom.**
 
 ## Mahasiswa
 
-- `J3D118040` - **NURMALA AMELIANA**
-- `J3D118042` - **MUHAMMAD NAUFAL WAFI**
-- `J3D118044` - **SAGITA HAPSARI**
-- `J3D118046` - **NAZLA BELLA FADILAH**
-- `J3D118047` - **ARVY ADHITYA SUTISNA**
-- `J3D118048` - **SENDY CAHYONO**
-- `J3D118053` - **ANNISA NUR FITRIYANI**
-- `J3D118066` - **ZUHARMAN**
+- `J3D118040` - **Nurmala Ameliana**
+- `J3D118042` - **Muhammad Naufal Wafi**
+- `J3D118044` - **Sagita Hapsari**
+- `J3D118046` - **Nazla Bella Fadilah**
+- `J3D118047` - **Arvy Adhitya Sutisna**
+- `J3D118048` - **Sendy Cahyono**
+- `J3D118053` - **Annisa Nur Fitriyani**
+- `J3D118066` - **Zuharman**
