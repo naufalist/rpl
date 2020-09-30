@@ -11,12 +11,18 @@ function cekKarakter($data){
             "klien_terlibat_langsung" => "terlibat"
         ],
         "vshaped" => [
-            "kebutuhan_awal" => "dapat dijelaskan",
-            "kompleksitas" => "sederhana",
+            "kebutuhan_awal" => "tidak dapat dijelaskan",
+            "kompleksitas" => "kompleks",
             "waktu_delivery" => "< 1 bulan",
-            "jumlah_tim" => "> 12 orang",
+            "jumlah_tim" => "< 12 orang",
             "keterampilan_tim" => "campuran",
             "klien_terlibat_langsung" => "tidak terlibat"
+            // "kebutuhan_awal" => "dapat dijelaskan",
+            // "kompleksitas" => "sederhana",
+            // "waktu_delivery" => "< 1 bulan",
+            // "jumlah_tim" => "> 12 orang",
+            // "keterampilan_tim" => "campuran",
+            // "klien_terlibat_langsung" => "tidak terlibat"
         ],
         "spiral" => [
             "kebutuhan_awal" => "tidak dapat dijelaskan",
@@ -35,12 +41,18 @@ function cekKarakter($data){
             "klien_terlibat_langsung" => "terlibat"
         ],
         "prototyping" => [
-            "kebutuhan_awal" => "dapat dijelaskan",
-            "kompleksitas" => "kompleks",
+            "kebutuhan_awal" => "tidak dapat dijelaskan",
+            "kompleksitas" => "sederhana",
             "waktu_delivery" => "1 bulan",
-            "jumlah_tim" => "> 12 orang",
+            "jumlah_tim" => "< 12 orang",
             "keterampilan_tim" => "berpengalaman",
             "klien_terlibat_langsung" => "terlibat"
+            // "kebutuhan_awal" => "dapat dijelaskan",
+            // "kompleksitas" => "kompleks",
+            // "waktu_delivery" => "1 bulan",
+            // "jumlah_tim" => "> 12 orang",
+            // "keterampilan_tim" => "berpengalaman",
+            // "klien_terlibat_langsung" => "terlibat"
         ],
         "scrum" => [
             "kebutuhan_awal" => "dapat dijelaskan",
