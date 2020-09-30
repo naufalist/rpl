@@ -1,0 +1,26 @@
+
+===================================================
+
+       Praktikum 2 Rekayasa Perangkat Lunak
+	  Metodologi Pengembangan Sistem
+
+===================================================
+
+Identitas kelas, dan
+Daftar nama nim anggota kelompok
+---------------------------------------------------
+NO.| NAMA ANGGOTA KELOMPOK |    NIM    |   KELAS  |
+---|-----------------------|-----------|----------|
+1. | NURMALA AMELIANA	   | J3D118040 | TEK 3AP1 |
+2. | MUHAMMAD NAUFAL WAFI  | J3D118042 | TEK 3AP1 |
+3. | SAGITA HAPSARI	   | J3D118044 | TEK 3AP1 |
+4. | NAZLA BELLA FADILAH   | J3D118046 | TEK 3AP1 |
+5. | ARVY ADHITYA SUTISNA  | J3D118047 | TEK 3AP1 |
+6. | SENDY CAHYONO	   | J3D118048 | TEK 3AP1 |
+7. | ANNISA NUR FITRIYANI  | J3D118053 | TEK 3AP1 |
+8. | ZUHARMAN              | J3D118066 | TEK 3AP1 |
+---------------------------------------------------
+
+===================================================
+
+
