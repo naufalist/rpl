@@ -576,7 +576,7 @@ function cekKarakter($data){
                             <span class="badge badge-primary badge-pill">J3D118048</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center py-1 text-center">
-                            <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/116992864_111603097198660_5171442987820783900_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=dpaLWilBUe4AX8B2dX_&oh=e7d33048797bef6a469b1f1bfa1752ef&oe=5F88472C" alt="sasa">
+                            <img class="rounded-circle" width="40" height="auto" src="https://scontent-vie1-1.cdninstagram.com/v/t51.2885-19/120577727_2486125848179243_4012862139450844087_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_ohc=KzjVjFd0e7AAX9rvpl9&oh=7179760e77b0276313983f943eab910e&oe=5FAA8E17" alt="sasa">
                             Annisa Nur Fitriyani
                             <span class="badge badge-primary badge-pill">J3D118053</span>
                         </li>
